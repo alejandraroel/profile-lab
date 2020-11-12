@@ -1,0 +1,10 @@
+<ul class="profile-container">
+    <app-profile *ngFor="let profile of userProfile; index as i"
+    [profileRef]="profile">
+    <p>{{profileRef.profile}}</p>
+    </app-profile>
+</ul>
+<button>Update Profile</button>
+
+
+

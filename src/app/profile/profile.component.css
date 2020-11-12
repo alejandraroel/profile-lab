@@ -1,0 +1,9 @@
+.profile-container {
+  background-color: rgb(166, 230, 230);
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 50%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
